@@ -43,8 +43,8 @@ class Reminder(QWidget):
 
         text = QLabel(
             "‼️ JOB-LIMIT ERINNERUNG ‼️\n\n"
-            "Shadow, mach dein Limit, yallah!\n"
-            "Liebe Grüße, dein imaginärer Tino."
+            "Mach dein Limit, yallah, du musst dein Geld verdienen!\n"
+            "Liebe Grüße, dein imaginärer Rildo und Shadow."
         )
 
         text.setAlignment(Qt.AlignCenter)
@@ -112,7 +112,7 @@ app = QApplication(sys.argv)
 program = App(app)
 
 print("========================================")
-print(" GommeHD Job-Limit Erinnerung V1")
+print(" GommeHD Job-Limit Erinnerung V1.2.0")
 print(" Erfolgreich gestartet!")
 print(f" Erinnerung: Jede Stunde bei xx:{TRIGGER_MINUTE:02d}")
 print(f" Monitor: {MONITOR_INDEX}")
